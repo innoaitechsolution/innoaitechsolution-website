@@ -8,22 +8,13 @@ const Skills = () => {
     return (
         <section id='skills'>
             <span className="skillTitle">Who We are?</span>
- 29-update-navbar
-            <span className="skillDesc">We are InnoAl Tech Solution, a technology company specializing in web development, mobile app development, and database development. Our mission is to help our clients enhance their success in the digital world by providing them with innovative and scalable solutions. With our experienced team, we leverage the latest technologies and best practices to develop your projects. We are committed to delivering quality service by offering tailored solutions to meet our clients' needs. Feel free to contact us for more information.</span>
-
-            <span className="skillDesc">InnoAl Tech Solution is a technology company specializing in web development, mobile app development, and database development.
-Our mission is to help our clients enhance their success in the digital world by providing them with innovative and scalable solutions. With our experienced team, we leverage the latest technologies and best practices to develop your projects. We are committed to delivering quality service by offering tailored solutions to meet our clients' needs. Feel free to contact us for more information.</span>
-main
+            <span className="skillDesc">We are InnoAl Tech Solution, a technology company specializing in web development, mobile app development, and database development. Our mission is to help our clients enhance their success in the digital world by providing them with innovative and scalable solutions. With our experienced team, we leverage the latest technologies and best practices to develop your projects. We are committed to delivering quality service by offering tailored solutions to meet our clients' needs. Feel free to contact us for more information.</span>          
             <div className="skillBars">
                 <div className="skillBar">
                     <img src={WebDev} alt="WebDevelopent" className="skillBarImg" />
                     <div className="skillBarText">
                         <h2>Web Developent</h2>
- 29-update-navbar
                         <p>We provide personalized web solutions that meet our customer's needs. By working closely with them, we understand their business goals and preferences, shaping the design and coding processes based on their feedback. Our aim is to strengthen their digital presence by delivering dependable, impressive, and adaptable web solutions.</p>
-
-                        <p>We provide personalized web solutions that meet our customer's needs. By working closely with them, we understand their business goals and preferences, shaping the design and coding processes based on their feedback. We aim to strengthen their digital presence by delivering dependable, impressive, and adaptable web solutions.</p>
- main
                     </div>
                 </div>
                 <div className="skillBar">

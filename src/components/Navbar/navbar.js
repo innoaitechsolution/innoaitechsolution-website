@@ -21,19 +21,9 @@ const Navbar = () => {
           <button className="desktopMenuBtn" onClick={() => {
                 document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
             }}>
-          <img src={contactImg} alt="" className="desktopMenuImg" />Contact Me</button>            
-
-
-          <button className="desktopMenuBtn" onClick={() => {
-                document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
-            }}>
-29-update-navbar
-                <img src={contactImg} alt="" className="desktopMenuImg" />Contact Us</button>            
-
-                <img src={contactImg} alt="" className="desktopMenuImg" />Contact Me</button>
-            
- main
-            <img src={menu} alt="Menu" className='mobMenu' onClick={()=>setShowMenu(!showMenu)}/>
+          <img src={contactImg} alt="" className="desktopMenuImg" />Contact Us</button>        
+                   
+                    <img src={menu} alt="Menu" className='mobMenu' onClick={()=>setShowMenu(!showMenu)}/>
             <div className="navMenu" style={{display: showMenu? 'flex':'none'}}>
                 <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>Home</Link>
                 <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>Who We Are?</Link>
