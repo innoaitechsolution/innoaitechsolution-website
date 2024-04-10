@@ -41,9 +41,9 @@
 
 .skillBarImg {
     object-fit: cover;
-    height: 3rem;
-    width: 3rem;
-    margin-right: 2rem;
+    height: 5rem;
+    width: 6rem;
+    margin-right: 4rem;
 }
 
 .skillBarText>p {
