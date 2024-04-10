@@ -27,6 +27,9 @@ const Navbar = () => {
           <button className="desktopMenuBtn" onClick={() => {
                 document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
             }}>
+29-update-navbar
+                <img src={contactImg} alt="" className="desktopMenuImg" />Contact Us</button>            
+
                 <img src={contactImg} alt="" className="desktopMenuImg" />Contact Me</button>
             
  main

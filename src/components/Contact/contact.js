@@ -2,6 +2,8 @@ import React, { useRef } from 'react';
 import './contact.css';
 import Microsoft from '../../assets/microsoft.png';
 import YoutubeIcon from '../../assets/youtube.png';
+import XIcon from '../../assets/x.png';
+import LinkedInIcon from '../../assets/linkedIn.png';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -44,8 +46,10 @@ const Contact = () => {
               <input type="email" className="email" placeholder='Your Email' name='from_email'/>
               <textarea className='msg' name="message"rows="5" placeholder='Your Message'></textarea>
               <button type='submit' value='Send' className="submitBtn">Submit</button>
-              <div className="links">
-                <img src={YoutubeIcon} alt="Youtube" className="link" />              
+              <div className="links">         
+                <img src={LinkedInIcon} alt="LinkedIn" className="link" /> 
+                <img src={XIcon} alt="X" className="link" />  
+                <img src={YoutubeIcon} alt="Youtube" className="link" />       
               </div>        
        </form>
       </div>

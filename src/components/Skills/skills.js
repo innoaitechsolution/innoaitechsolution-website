@@ -8,28 +8,36 @@ const Skills = () => {
     return (
         <section id='skills'>
             <span className="skillTitle">Who We are?</span>
+ 29-update-navbar
+            <span className="skillDesc">We are InnoAl Tech Solution, a technology company specializing in web development, mobile app development, and database development. Our mission is to help our clients enhance their success in the digital world by providing them with innovative and scalable solutions. With our experienced team, we leverage the latest technologies and best practices to develop your projects. We are committed to delivering quality service by offering tailored solutions to meet our clients' needs. Feel free to contact us for more information.</span>
+
             <span className="skillDesc">InnoAl Tech Solution is a technology company specializing in web development, mobile app development, and database development.
 Our mission is to help our clients enhance their success in the digital world by providing them with innovative and scalable solutions. With our experienced team, we leverage the latest technologies and best practices to develop your projects. We are committed to delivering quality service by offering tailored solutions to meet our clients' needs. Feel free to contact us for more information.</span>
+main
             <div className="skillBars">
                 <div className="skillBar">
                     <img src={WebDev} alt="WebDevelopent" className="skillBarImg" />
                     <div className="skillBarText">
                         <h2>Web Developent</h2>
+ 29-update-navbar
+                        <p>We provide personalized web solutions that meet our customer's needs. By working closely with them, we understand their business goals and preferences, shaping the design and coding processes based on their feedback. Our aim is to strengthen their digital presence by delivering dependable, impressive, and adaptable web solutions.</p>
+
                         <p>We provide personalized web solutions that meet our customer's needs. By working closely with them, we understand their business goals and preferences, shaping the design and coding processes based on their feedback. We aim to strengthen their digital presence by delivering dependable, impressive, and adaptable web solutions.</p>
+ main
                     </div>
                 </div>
                 <div className="skillBar">
                     <img src={MobileAppDev} alt="MobilAppDevelopent" className="skillBarImg" />
                     <div className="skillBarText">
                         <h2>Mobile App Development</h2>
-                        <p>This demo text can be changed while making the production ready website.</p>
+                        <p>We develop innovative and user-friendly mobile applications tailored to our client's needs. By leveraging modern technologies, we provide customized mobile solutions to our clients. We value user feedback and shape the app development process accordingly. Our goal is to deliver reliable and effective mobile applications that help our clients achieve their business objectives.</p>
                     </div>
                 </div>
                 <div className="skillBar">
                     <img src={DatabaseDev} alt="DatabaseDevelopment" className="skillBarImg" />
                     <div className="skillBarText">
                         <h2>Database Development</h2>
-                        <p>You can write text related to mobile app development.</p>
+                        <p>We offer customized database solutions to meet our client's data management needs. Our goal is to help our clients improve their data management processes and achieve their business objectives through database-based solutions.</p>
                     </div>
                 </div>
             </div>
