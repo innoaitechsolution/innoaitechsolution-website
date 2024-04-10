@@ -15,8 +15,8 @@
 
  .logo {
     object-fit: cover;
-    height: 3rem;
-    width: 4rem;
+    height: 11rem;
+    width: 12rem;
  }
  
  .desktopMenuListItem {
@@ -25,7 +25,7 @@
  }
  
  .desktopMenuListItem:hover {
-     color: gray;
+     color: purple;
      padding-bottom: 0.5rem;
      border-bottom: 3px solid;
  }
