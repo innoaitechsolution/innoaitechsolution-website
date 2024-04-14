@@ -12,8 +12,8 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_4j6dfe8', 'template_gt4avmk', form.current, {
-        publicKey: '5uFSevxULKoRcnB6J',
+      .sendForm('service_sgazfwc', 'template_edkezw9', form.current, {
+        publicKey: 'e55t0YsBnsn57QEwf',
       })
       .then(
         () => {
@@ -42,8 +42,8 @@ const Contact = () => {
         <h1 className="contactPageTitle">Contact Us</h1>
         <span className="contactDesc"> Please fill out the form below to discuss any work opportunities.</span>
         <form className='contactForm' ref={form} onSubmit={sendEmail}>
-              <input type="text" className="name" placeholder='Your Name' name='from_name'/>
-              <input type="email" className="email" placeholder='Your Email' name='from_email'/>
+              <input type="text" className="name" placeholder='Your Name' name='your_name'/>
+              <input type="email" className="email" placeholder='Your Email' name='your_email'/>
               <textarea className='msg' name="message"rows="5" placeholder='Your Message'></textarea>
               <button type='submit' value='Send' className="submitBtn">Submit</button>
               <div className="links">         
