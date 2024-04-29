@@ -1,4 +1,4 @@
-#skills {
+#blogPage {
     overflow: hidden;
     width: 100vw;
     max-width: 65rem;
@@ -10,28 +10,28 @@
     margin: 0 auto;
 }
 
-.skillTitle {
+.blogTitle {
     font-size: 3rem;
     font-weight: 600;
     padding-top: 3rem;
     margin-bottom: 1.5rem;    
 }
 
-.skillDesc {
+.blogDesc {
     font-weight: 400;
     font-size: 1rem;
     max-width: 51rem;
     padding: 0 2rem;
 }
 
-.skillBars {
+.blogBars {
     margin: 1.5rem;
     width: 100vw;
     max-width: 80%;
     text-align: left;
 }
 
-.skillBar {
+.blogBar {
     display: flex;
     margin: 1rem;
     padding: 1.5rem 2rem;
@@ -39,14 +39,14 @@
     background: rgb(50, 50, 50);
 }
 
-.skillBarImg {
+.blogBarImg {
     object-fit: cover;
     height: 5rem;
     width: 6rem;
     margin-right: 4rem;
 }
 
-.skillBarText>p {
+.blogBarText>p {
     font-size: 0.9rem;
     font-weight: 200;
 }
@@ -58,14 +58,14 @@
 }
 
 @media screen and (max-width:480px) {
-    .skillBarText>p {
+    .blogBarText>p {
         font-size: 3vw;
     }
-    .skillBarImg {
+    .blogBarImg {
         height: 2.25rem;
         width: 2.25rem;
     }
-    .skillBarText>h2 {
+    .blogBarText>h2 {
         font-size: 5vw;
     }
 }
