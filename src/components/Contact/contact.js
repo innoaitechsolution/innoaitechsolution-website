@@ -48,7 +48,7 @@ const Contact = () => {
               <button type='submit' value='Send' className="submitBtn">Submit</button>
               <div className="links">         
                 <img src={LinkedInIcon} alt="LinkedIn" className="https://www.linkedin.com/company/100811930/admin" /> 
-                <img src={XIcon} alt="X" className="link" />  
+                <img src={XIcon} alt="X" className="https://twitter.com/innoai_tech" />  
                 <img src={YoutubeIcon} alt="Youtube" className="link" />       
               </div>        
        </form>
