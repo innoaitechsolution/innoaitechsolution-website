@@ -12,7 +12,7 @@ const Works = () => {
                 <img src={Portfolio1} alt="" className="worksImg" />
               
             </div>
-            <button className="workBtn">See More</button>
+            <button className="workBtn">See More project!</button>
         </section>
     );
 }
