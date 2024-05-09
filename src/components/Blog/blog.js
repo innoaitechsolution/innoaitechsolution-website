@@ -1,6 +1,7 @@
-import React from 'react';
+/*import React from 'react';
 import './blog.css';
 import BlogImage from '../../assets/blogimage.jpg';
+import { Link } from 'react-scroll';
 
 const Blog = () => {
   return (
@@ -19,4 +20,4 @@ const Blog = () => {
   );
 }
 
-export default Blog;
+export default Blog;*/
