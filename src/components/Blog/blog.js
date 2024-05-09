@@ -1,6 +1,8 @@
 import React from 'react';
 import './blog.css';
 import BlogImage from '../../assets/blogimage.jpg';
+import { Link } from 'react-router-dom'
+
 
 const Blog = () => {
   return (
