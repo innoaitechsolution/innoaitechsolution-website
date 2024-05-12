@@ -14,14 +14,14 @@ const Skills = () => {
                     <img src={WebDev} alt="WebDevelopent" className="skillBarImg" />
                     <div className="skillBarText">
                         <h2>Web Developent</h2>
-                        <p>We provide personalized web solutions that meet our customer's needs. By working closely with them, we understand their business goals and preferences, shaping the design and coding processes based on their feedback. Our aim is to strengthen their digital presence by delivering dependable, impressive, and adaptable web solutions. </p>
+                        <p>We provide personalized web solutions that meet our customer's needs. By working closely with them, we understand their business goals and preferences, shaping the design and coding processes based on their feedback. </p>
                     </div>
                 </div>
                 <div className="skillBar">
                     <img src={MobileAppDev} alt="MobilAppDevelopent" className="skillBarImg" />
                     <div className="skillBarText">
                         <h2>Mobile App Development</h2>
-                        <p>We develop innovative and user-friendly mobile applications tailored to our client's needs. By leveraging modern technologies, we provide customized mobile solutions to our clients. We value user feedback and shape the app development process accordingly. Our goal is to deliver reliable and effective mobile applications that help our clients achieve their business objectives.</p>
+                        <p>We develop innovative and user-friendly mobile applications tailored to our client's needs. By leveraging modern technologies, we provide customized mobile solutions to our clients.</p>
                     </div>
                 </div>
                 <div className="skillBar">
