@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import './contact.css';
-import Microsoft from '../../assets/microsoft.png';
+import Clients from '../../assets/clients.png';
 import YoutubeIcon from '../../assets/youtube.png';
 import XIcon from '../../assets/x.png';
 import LinkedInIcon from '../../assets/linkedIn.png';
@@ -31,10 +31,10 @@ const Contact = () => {
       <div id="clients">
            <h1 className="contactPageTitle">Our Clients</h1>
            <span className="clientsDesc">
-            Lorem
+           We pride ourselves on our diverse clientele, spanning across various industries, and our commitment to providing personalized and innovative solutions tailored to their unique needs.
            </span>
            <div className="clientImgs">
-            <img src={Microsoft} alt="Client" className="clientImg" />
+            <img src={Clients} alt="Client" className="clientImg" />
 
            </div>
       </div>
