@@ -1,7 +1,5 @@
 import React, { useRef } from 'react';
 import './contact.css';
-import Clients from '../../assets/clients.png';
-import YoutubeIcon from '../../assets/youtube.png';
 import XIcon from '../../assets/x.png';
 import LinkedInIcon from '../../assets/linkedIn.png';
 import emailjs from '@emailjs/browser';
@@ -32,11 +30,7 @@ const Contact = () => {
            <h1 className="contactPageTitle">Our Clients</h1>
            <span className="clientsDesc">
            We pride ourselves on our diverse clientele, spanning across various industries, and our commitment to providing personalized and innovative solutions tailored to their unique needs.
-           </span>
-           <div className="clientImgs">
-            <img src={Clients} alt="Client" className="clientImg" />
-
-           </div>
+           </span>        
       </div>
       <div id="contact">
         <h1 className="contactPageTitle">Contact Us!</h1>
@@ -46,10 +40,13 @@ const Contact = () => {
               <input type="email" className="email" placeholder='Your Email' name='your_email'/>
               <textarea className='msg' name="message"rows="5" placeholder='Your Message'></textarea>
               <button type='submit' value='Send' className="submitBtn">Submit</button>
-              <div className="links">         
-                <img src={LinkedInIcon} alt="LinkedIn" className="https://www.linkedin.com/company/100811930/admin" /> 
-                <img src={XIcon} alt="X" className="https://twitter.com/innoai_tech" />  
-                <img src={YoutubeIcon} alt="Youtube" className="https://www.youtube.com/@innoaitechsolution" />       
+              <div className="links"> 
+              <a href="https://www.linkedin.com/company/100811930/admin">
+  <img src={LinkedInIcon} alt="LinkedIn" className="social-icon" />
+</a>
+<a href="https://twitter.com/innoai_tech">
+  <img src={XIcon} alt="X" className="social-icon" /></a>    
+                   
               </div>        
        </form>
       </div>

@@ -85,3 +85,9 @@
     width: 3rem;
     margin: 0 0.75rem;
 }
+
+.social-icon {
+    width: 3rem; /* Adjust width as needed */
+    height: 3rem; /* Adjust height as needed */
+    object-fit: cover;
+  }
