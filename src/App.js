@@ -4,6 +4,7 @@ import Skills from "./components/Skills/skills";
 import Works from "./components/Works/works";
 import Contact from "./components/Contact/contact";
 import Footer from "./components/Footer/footer";
+import PrivacyPolicy from "./privacypolicy/PrivacyPolicy";
 
 function App() {
     return (
@@ -14,7 +15,7 @@ function App() {
             <Works />           
             <Contact />
             <Footer />
-           
+            <PrivacyPolicy />           
         </div>
     );
 }
