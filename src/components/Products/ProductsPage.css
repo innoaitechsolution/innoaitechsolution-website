@@ -1,0 +1,92 @@
+/* Genel Ayarlar */
+.products-page {
+  background-color: #000; /* Siyah arka plan */
+  color: #fff;
+  padding: 3rem 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.products-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #9654c6; /* Başlık rengi */
+}
+
+.products-intro {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Ürün Listesi */
+.products-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.product-card {
+  background-color: #292929; /* Kart arka planı */
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(150, 84, 198, 0.5);
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.product-name {
+  font-size: 1.5rem;
+  color: #9654c6;
+  margin-bottom: 1rem;
+}
+
+.product-description {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 1.5rem;
+}
+
+.product-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.product-button {
+  background-color: #9654c6;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.product-button:hover {
+  background-color: #7a41a6;
+}
+
+.product-button.disabled {
+  background-color: #444;
+  cursor: not-allowed;
+}
