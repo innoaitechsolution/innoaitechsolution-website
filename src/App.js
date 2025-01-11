@@ -7,8 +7,8 @@ import BlogDetailPage from "./components/Blog/BlogDetailPage";
 import ContactPage from "./components/Contact/ContactPage";
 import ProductsPage from "./components/Products/ProductsPage";
 import PrivacyPolicy from "./privacypolicy/PrivacyPolicy";
-import Navbar from "./components/Navbar/Navbar";
-import Footer from "./components/Footer/Footer";
+import Navbar from "./components/Navbar/navbar";
+import Footer from "./components/Footer/footer";
 
 const App = () => {
   return (
