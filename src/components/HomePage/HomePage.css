@@ -111,10 +111,9 @@ body {
 }
 
 .product-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  justify-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
 .product-item {
@@ -161,4 +160,5 @@ body {
 .footer a:hover {
   text-decoration: underline;
 }
+
 
