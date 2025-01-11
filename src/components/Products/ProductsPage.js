@@ -1,7 +1,6 @@
 import React from "react";
 import "./ProductsPage.css";
 
-// Görselleri import et
 import aiToolsImage from "../../assets/ai-tools.png";
 import mobileAppImage from "../../assets/mobile-app.png";
 import customSolutionsImage from "../../assets/custom-solutions.png";
@@ -12,7 +11,7 @@ const ProductsPage = () => {
       id: 1,
       name: "AI Tools",
       description: "Revolutionize your productivity with our AI-powered solutions.",
-      image: aiToolsImage, // Import edilen görsel
+      image: aiToolsImage, 
       buttonText: "Shop AI Tools",
       buttonLink: "https://gumroad.com/dashboard",
     },
@@ -20,7 +19,7 @@ const ProductsPage = () => {
       id: 2,
       name: "Mobile Applications",
       description: "Download our mobile apps to streamline your business operations.",
-      image: mobileAppImage, // Import edilen görsel
+      image: mobileAppImage, 
       buttonText: "View on Google Play",
       buttonLink: "https://play.google.com/store/apps/details?id=com.innoaits.knitmate&pcampaignid=web_share",
       secondaryButtonText: "Coming Soon to App Store",
@@ -30,7 +29,7 @@ const ProductsPage = () => {
       id: 3,
       name: "Custom Digital Solutions",
       description: "Custom templates, databases, and more for your business needs.",
-      image: customSolutionsImage, // Import edilen görsel
+      image: customSolutionsImage, 
       buttonText: "Shop Now",
       buttonLink: "https://gumroad.com/dashboard",
     },    
