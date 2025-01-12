@@ -9,11 +9,11 @@ const ProductsPage = () => {
   const products = [
     {
       id: 1,
-      name: "AI Tools",
+      name: "AI Product",
       description: "Revolutionize your productivity with our AI-powered solutions.",
       image: aiToolsImage, 
       buttonText: "Shop AI Tools",
-      buttonLink: "https://gumroad.com/dashboard",
+      buttonLink: "https://innoaits.gumroad.com/l/ai-prompt-list?_gl=1*7y6a5e*_ga*NjAxMzgzNjcyLjE3MzIwOTMwNjQ.*_ga_6LJN6D94N6*MTczNjcyMjU5MC4xOC4xLjE3MzY3MjI2MzYuMC4wLjA.",
     },
     {
       id: 2,
@@ -31,7 +31,7 @@ const ProductsPage = () => {
       description: "Custom templates, databases, and more for your business needs.",
       image: customSolutionsImage, 
       buttonText: "Shop Now",
-      buttonLink: "https://gumroad.com/dashboard",
+      buttonLink: "https://innoaits.gumroad.com/l/ai-prompt-list?_gl=1*7y6a5e*_ga*NjAxMzgzNjcyLjE3MzIwOTMwNjQ.*_ga_6LJN6D94N6*MTczNjcyMjU5MC4xOC4xLjE3MzY3MjI2MzYuMC4wLjA.",
     },    
   ];
 
