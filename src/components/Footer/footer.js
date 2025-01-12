@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <h3>InnoAl Tech Solution</h3>
-        <p>© 2025 InnoAl Tech Solution. All Rights Reserved.</p>
+        <p>© 2024 InnoAl Tech Solution. All Rights Reserved.</p>
         <a href="/privacy-policy" className="footer-link">
           Privacy Policy
         </a>
