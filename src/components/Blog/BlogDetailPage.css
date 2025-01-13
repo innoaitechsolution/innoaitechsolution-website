@@ -8,7 +8,7 @@
   
   .blog-detail-image {
     width: 70%; 
-    max-width: 600px;
+    max-width: 400px;  
     height: auto; 
     border-radius: 10px;
     margin: 0 auto 2rem; 
