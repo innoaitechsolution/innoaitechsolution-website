@@ -40,7 +40,7 @@ const HomePage = () => {
         <h2>Our Digital Products</h2>
         <div className="product-list">
           <div className="product-item">
-            <h3>AI Tools</h3>
+            <h3>AI Products</h3>
             <p>Innovative solutions powered by artificial intelligence.</p>
           </div>
           <div className="product-item">

@@ -9,10 +9,10 @@ const ProductsPage = () => {
   const products = [
     {
       id: 1,
-      name: "AI Product",
+      name: "AI Products",
       description: "Revolutionize your productivity with our AI-powered solutions.",
       image: aiToolsImage, 
-      buttonText: "Shop AI Tools",
+      buttonText: "Shop AI Products",
       buttonLink: "https://innoaits.gumroad.com/l/ai-prompt-list?_gl=1*7y6a5e*_ga*NjAxMzgzNjcyLjE3MzIwOTMwNjQ.*_ga_6LJN6D94N6*MTczNjcyMjU5MC4xOC4xLjE3MzY3MjI2MzYuMC4wLjA.",
     },
     {
