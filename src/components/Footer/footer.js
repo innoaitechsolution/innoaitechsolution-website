@@ -36,10 +36,7 @@ const Footer = () => {
 
       <div className="footer-socials">
         <h4 className="footer-section-title">Follow Us</h4>
-        <div className="social-icons">
-          <a href="https://x.com/knittmates" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-            <FaTwitter />
-          </a>
+        <div className="social-icons">          
           <a href="https://www.linkedin.com/company/innoai" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <FaLinkedin />
           </a>
