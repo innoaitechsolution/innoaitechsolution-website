@@ -1,9 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import "./BlogDetailPage.css";
-import futureWebImage from "../../assets/Blog/future-web.png";
-import customMobileImage from "../../assets/Blog/custom-mobile.png";
-import databasePerformanceImage from "../../assets/Blog/database-performance.png";
+
 
 const BlogDetailPage = () => {
   const { id } = useParams();
@@ -31,8 +29,7 @@ const BlogDetailPage = () => {
             engaging, and efficient. Are you ready to leverage these trends to future-proof your business?
           </p>
         </>
-      ),
-      image: futureWebImage,
+      ),    
     },
     {
       id: "2",
@@ -56,8 +53,7 @@ const BlogDetailPage = () => {
             the opportunity to elevate your brand in the palms of your customers.
           </p>
         </>
-      ),
-      image: customMobileImage,
+      ),     
     },
     {
       id: "3",
@@ -81,8 +77,7 @@ const BlogDetailPage = () => {
             paving the way for seamless growth and better customer experiences.
           </p>
         </>
-      ),
-      image: databasePerformanceImage,
+      ),    
     },
   ];
 
