@@ -22,6 +22,18 @@
       "name": "Freelancer Contract Templates for Developers",
       "description": "Simplify Your Client Agreements",
       "link": "https://innoaits.gumroad.com/l/freelancer-contract-templates"
-    }           
+    },  
+    {
+      "id": 5,
+      "name": "50 AI-Powered React Prompts to Code Faster & Smarter",
+      "description": "Supercharge Your React Development with AI!",
+      "link": "https://innoaits.gumroad.com/l/react-prompts"
+    },
+    {
+      "id": 6,
+      "name": "50 AI-Powered React Native Prompts to Build Faster & Smarter Mobile Apps",
+      "description": "Streamline Your React Native Workflow with AI-Powered Prompts!",
+      "link": "https://innoaits.gumroad.com/l/react-native-prompts"
+    }        
   ]
   
