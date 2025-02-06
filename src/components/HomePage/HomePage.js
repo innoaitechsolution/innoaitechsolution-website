@@ -1,6 +1,7 @@
 import React from "react";
 import "./HomePage.css";
-import { FaLaptopCode, FaMobileAlt, FaDatabase } from "react-icons/fa";
+import { FaMobileAlt } from "react-icons/fa";
+import { Link } from "react-router-dom"; // React Router'dan Link import edildi
 
 const HomePage = () => {
   return (
@@ -9,7 +10,6 @@ const HomePage = () => {
       <section className="hero">
         <h1>InnoAl Tech Solution</h1>
         <p>Transforming Your Ideas into Innovative Digital Solutions</p>
-        {/* Butonu değiştirdik */}
         <button className="cta-button">Unlock the Future</button>
       </section>
 
@@ -17,20 +17,21 @@ const HomePage = () => {
       <section className="services">
         <h2>Our Services</h2>
         <div className="services-container">
-          <div className="service-card">
-            <FaLaptopCode className="service-icon" />
-            <h3>Web Development</h3>
-            <p>Custom web solutions tailored to your business needs.</p>
-          </div>
-          <div className="service-card">
+          <div className="service-card expanded-card">
             <FaMobileAlt className="service-icon" />
             <h3>Mobile App Development</h3>
-            <p>Innovative and user-friendly mobile applications.</p>
-          </div>
-          <div className="service-card">
-            <FaDatabase className="service-icon" />
-            <h3>Database Development</h3>
-            <p>Efficient and scalable database solutions.</p>
+            <p>
+              We specialize in creating cutting-edge mobile apps that provide
+              seamless user experiences and innovative functionalities.
+            </p>
+            <p>
+              Whether you need a solution for iOS, Android, or both, we’ve got
+              you covered!
+            </p>
+            {/* Learn More Button with Link */}
+            <Link to="/services" className="learn-more-button">
+              Learn More
+            </Link>
           </div>
         </div>
       </section>

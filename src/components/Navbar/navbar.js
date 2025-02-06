@@ -25,7 +25,7 @@ const Navbar = () => {
           <Link to="/" onClick={() => setIsOpen(false)}>Home</Link>
         </li>
         <li>
-          <Link to="/services" onClick={() => setIsOpen(false)}>Services</Link>
+          <Link to="/services" onClick={() => setIsOpen(false)}>Pricing</Link>
         </li>
         <li>
           <Link to="/products" onClick={() => setIsOpen(false)}>Products</Link>
