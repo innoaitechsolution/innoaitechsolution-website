@@ -5,6 +5,15 @@ const ContactPage = () => {
   return (
     <div className="contact-page">
       <h1 className="contact-title">Get in Touch</h1>
+
+      {/* Address Section */}
+      <div className="contact-address">
+      <h2>Our Address</h2>
+  <p>48 Masons Hill,</p>
+  <p>Bromley, London,</p>
+  <p>United Kingdom</p>  
+</div>
+
       <p className="contact-intro">We'd love to hear from you! Fill out the form below, and we'll get back to you as soon as possible.</p>
 
       {/* Contact Form */}
