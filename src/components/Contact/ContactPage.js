@@ -14,7 +14,7 @@ const ContactPage = () => {
   <p>United Kingdom</p>  
 </div>
 
-      <p className="contact-intro">We'd love to hear from you! Fill out the form below, and we'll get back to you as soon as possible.</p>
+      <p className="contact-intro">We'd love to hear from you! </p><p>Fill out the form below, and we'll get back to you as soon as possible.</p>
 
       {/* Contact Form */}
       <form className="contact-form" action="https://formspree.io/f/xeooveyl" method="POST">
