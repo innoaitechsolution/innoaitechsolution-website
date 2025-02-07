@@ -1,64 +1,151 @@
 .services-page {
-    background-color: #000; 
-    color: #fff;
-    padding: 3rem 2rem;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  .services-header {
-    text-align: center;
-    margin-bottom: 3rem;
-  }
-  
-  .services-header h1 {
-    font-size: 2.5rem;
-    color: #9654c6;
-  }
-  
-  .services-header p {
-    font-size: 1.2rem;
-    color: #ccc;
-    margin-top: 0.5rem;
-  }
-  
-  /* Hizmet Listesi */
-  .services-list {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    flex-wrap: wrap;
-  }
-  
-  .service-item {
-    background-color: #292929; 
-    border-radius: 10px;
-    padding: 2rem;
-    text-align: center;
-    width: 300px;
-    height: 350px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .service-item:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 15px rgba(150, 84, 198, 0.5);
-  }
-  
-  .service-icon {
-    font-size: 3rem;
-    color: #9654c6; 
-    margin-bottom: 1rem;
-  }
-  
-  .service-item h2 {
-    font-size: 1.5rem;
-    color: #9654c6;
-    margin-bottom: 1rem;
-  }
-  
-  .service-item p {
-    color: #ccc; 
-    font-size: 1rem;
-  }
+  background-color: #000;
+  color: #fff;
+  padding: 3rem 2rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.services-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.services-header h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;  
+}
+.services-header .highlight {
+  font-size: 3rem; 
+  font-weight: bold;
+  color: #9654c6; 
+  margin-bottom: 1rem;
+  display: block; 
+}
+
+.services-header p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+/* Avantajlar */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.feature-item {
+  text-align: center;
+  width: 300px;
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(150, 84, 198, 0.5);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  color: #9654c6;
+  margin-bottom: 1rem;
+}
+
+.feature-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.feature-item p {
+  color: #ccc;
+  font-size: 1rem;
+}
+
+
+.pricing {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.pricing-plan {
+  background-color: #292929;
+  color: #fff;
+  padding: 2.5rem;
+  border-radius: 15px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-plan.pro {
+  border: 2px solid #9654c6; 
+}
+
+.pricing-plan:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(150, 84, 198, 0.5);
+}
+
+.pricing-plan h2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.pricing-plan p {
+  color: #ccc;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.pricing-plan h3 {
+  font-size: 2.5rem;
+  color: #9654c6;
+  margin-bottom: 1rem;
+}
+
+.small-text {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 1rem;
+}
+
+.pricing-plan ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  color: #ccc;
+}
+
+.pricing-plan ul li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.pricing-button {
+  background-color: #9654c6;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.pricing-button:hover {
+  background-color: #7543a7;
+  transform: scale(1.05);
+}
+
   
