@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { FaLinkedin, FaYoutube, FaTiktok } from "react-icons/fa";
+import { FaLinkedin, FaYoutube, FaTiktok, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -39,6 +39,9 @@ const Footer = () => {
         <div className="social-icons">          
           <a href="https://www.linkedin.com/company/innoai" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <FaLinkedin />
+          </a>
+          <a href="https://x.com/innoai_ts" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+            <FaTwitter />
           </a>
           <a href="https://www.youtube.com/@innoaitechsolution" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
             <FaYoutube />
