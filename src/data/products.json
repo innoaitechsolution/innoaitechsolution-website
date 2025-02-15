@@ -2,13 +2,13 @@
     {
       "id": 1,
       "name": "Winning Developer Portfolio Guide",
-      "description": "Build a standout portfolio and get ahead in your career as a junior developer.",
+      "description": "Build a standout portfolio and get ahead in your career as a junior developer!",
       "link": "https://innoaits.gumroad.com/l/portfolio-guide"
     },
     {
       "id": 2,
       "name": "AI Prompt List for Interview Success",
-      "description": "Master coding, system design, and behavioural interviews with AI-powered prompts.",
+      "description": "Master coding, system design, and behavioural interviews with AI-powered prompts!",
       "link": "https://innoaits.gumroad.com/l/ai-prompt-list"
     }, 
     {
@@ -20,7 +20,7 @@
     {
       "id": 4,
       "name": "Freelancer Contract Templates for Developers",
-      "description": "Simplify Your Client Agreements",
+      "description": "Simplify Your Client Agreements!",
       "link": "https://innoaits.gumroad.com/l/freelancer-contract-templates"
     },  
     {
@@ -38,20 +38,26 @@
     {
       "id": 7,
       "name": "50 AI-Powered Leetcode Prompts to Master Technical Interviews",
-      "description": "Break down complex Leetcode problems with AI Prompts.",
+      "description": "Break down complex Leetcode problems with AI Prompts!",
       "link": "https://innoaits.gumroad.com/l/leetcode-prompts"
     },
     {
       "id": 8,
       "name": "AI-Powered LinkedIn Optimization for Developers",
-      "description": "Boost Your LinkedIn Presence as a Developer with AI-Powered Strategies!.",
+      "description": "Boost Your LinkedIn Presence as a Developer with AI-Powered Strategies!",
       "link": "https://innoaits.gumroad.com/l/linkedin-optimization"
     }, 
     {
       "id": 9,
       "name": "Freelance Developer Pricing Guide",
-      "description": "Get the Freelance Developer Pricing Guide & price with confidence!.",
+      "description": "Get the Freelance Developer Pricing Guide & price with confidence!",
       "link": "https://innoaits.gumroad.com/l/freelance-pricing"
-    }              
+    }, 
+    {
+      "id": 10,
+      "name": "Behavioural Interview Masterclass",
+      "description": "Ace Your Behavioural Interviews with AI-Powered Preparation!",
+      "link": "https://innoaits.gumroad.com/l/behavioural-interview"
+    }                   
   ]
   
