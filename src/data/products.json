@@ -81,7 +81,13 @@
       "id": 14,
       "name": "AI-Powered Prompts for Code Review & Refactoring: Improve Code Quality & Maintainability",
       "description": "Writing clean, maintainable, and efficient code is crucial but manual code reviews and refactoring can be time-consuming!",
-      "link": "hhttps://innoaits.gumroad.com/l/code-review"
-    }                           
+      "link": "https://innoaits.gumroad.com/l/code-review"
+    },
+    {
+      "id": 15,
+      "name": "AI-Powered Prompts for DevOps & Automation: Streamline CI/CD, Cloud, and Monitoring",
+      "description": "DevOps workflows can be complicated and time-intensive—but AI can make it smarter and more efficient!",
+      "link": "https://innoaits.gumroad.com/l/devops-automation"
+    }                               
   ]
   
