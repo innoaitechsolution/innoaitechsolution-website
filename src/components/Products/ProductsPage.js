@@ -7,7 +7,7 @@ import mobileAppImage from "../../assets/mobile-app.png";
 import customSolutionsImage from "../../assets/custom-solutions.png";
 
 const ProductsPage = () => {
-  const navigate = useNavigate(); // React Router'ın yönlendirme hook'u
+  const navigate = useNavigate(); 
 
   const products = [
     {
