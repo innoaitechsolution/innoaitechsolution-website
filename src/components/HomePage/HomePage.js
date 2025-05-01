@@ -10,7 +10,9 @@ const HomePage = () => {
       <section className="hero">
         <h1>InnoAl Tech Solution</h1>
         <p>Transforming Your Ideas into Innovative Digital Solutions</p>
+        <Link to="/services">
         <button className="cta-button">Unlock the Future</button>
+        </Link>        
       </section>
 
       {/* Services Section */}
