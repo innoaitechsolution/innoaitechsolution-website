@@ -76,6 +76,10 @@ const ServicesPage = () => {
           </button>
         </div>
       </section>
+      {/* Back to Home Button Only */}
+      <div className="webdev-backhome-btnonly">
+        <a href="/" className="webdev-backhome-btnonly-link">← Back to Home</a>
+      </div>
     </div>
   );
 };

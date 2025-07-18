@@ -1,7 +1,7 @@
 import React from "react";
 import "./HomePage.css";
-import { FaMobileAlt } from "react-icons/fa";
-import { Link } from "react-router-dom"; // React Router'dan Link import edildi
+import { FaMobileAlt, FaLaptopCode } from "react-icons/fa";
+import { Link } from "react-router-dom"; 
 
 const HomePage = () => {
   return (
@@ -23,15 +23,25 @@ const HomePage = () => {
             <FaMobileAlt className="service-icon" />
             <h3>Mobile App Development</h3>
             <p>
-              We specialize in creating cutting-edge mobile apps that provide
-              seamless user experiences and innovative functionalities.
+              We build seamless, high-quality mobile apps.
             </p>
             <p>
-              Whether you need a solution for iOS, Android, or both, we’ve got
-              you covered!
+              iOS, Android, or both — we've got you covered.
             </p>
-            {/* Learn More Button with Link */}
             <Link to="/services" className="learn-more-button">
+              Learn More
+            </Link>
+          </div>
+          <div className="service-card expanded-card">
+            <FaLaptopCode className="service-icon" />
+            <h3>Web Development</h3>
+            <p>
+              We build fast, responsive websites and web apps tailored to your business.
+            </p>
+            <p>
+              From landing pages to platforms — secure, scalable, and efficient.
+            </p>
+            <Link to="/web-development" className="learn-more-button">
               Learn More
             </Link>
           </div>

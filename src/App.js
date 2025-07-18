@@ -10,6 +10,7 @@ import AllProductsPage from "./components/Products/AllProductsPage";
 import PrivacyPolicy from "./privacypolicy/PrivacyPolicy";
 import Navbar from "./components/Navbar/navbar";
 import Footer from "./components/Footer/footer";
+import WebDevelopmentPage from "./components/ServicesPage/WebDevelopmentPage";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />      
         <Route path="/services" element={<ServicesPage />} />       
+        <Route path="/web-development" element={<WebDevelopmentPage />} />
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/all-products" element={<AllProductsPage />} />
         <Route path="/blog" element={<BlogPage />} />
