@@ -54,7 +54,7 @@ const PrivacyPolicy = () => {
         </div>
 
         <div className="privacy-policy-section">
-          <h2>Contact Us</h2>
+          <h3>Contact Us</h3>
           <p>
             If you have any questions about our privacy practices, please
             contact us at{" "}
