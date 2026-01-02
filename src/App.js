@@ -8,6 +8,8 @@ import ContactPage from "./components/Contact/ContactPage";
 import ProductsPage from "./components/Products/ProductsPage";
 import AllProductsPage from "./components/Products/AllProductsPage";
 import PrivacyPolicy from "./privacypolicy/PrivacyPolicy";
+import TermsOfUse from "./terms/TermsOfUse";
+import AccountDeletion from "./accountdeletion/AccountDeletion";
 import Navbar from "./components/Navbar/navbar";
 import Footer from "./components/Footer/footer";
 import WebDevelopmentPage from "./components/ServicesPage/WebDevelopmentPage";
@@ -26,6 +28,9 @@ const App = () => {
         <Route path="/blog/:id" element={<BlogDetailPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
+        <Route path="/terms" element={<TermsOfUse />} />
+        <Route path="/account-deletion" element={<AccountDeletion />} />
       </Routes>
       <Footer />
     </Router>
