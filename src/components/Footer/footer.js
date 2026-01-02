@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./footer.css";
 import { FaLinkedin, FaYoutube, FaTiktok, FaTwitter } from "react-icons/fa";
 
@@ -8,28 +9,36 @@ const Footer = () => {
       <div className="footer-content">
         <h3>InnoAl Tech Solution</h3>
         <p>© 2024 InnoAl Tech Solution. All Rights Reserved.</p>
-        <a href="/privacy-policy" className="footer-link">
-          Privacy Policy
-        </a>
+        <div className="footer-legal-links">
+          <Link to="/privacy" className="footer-link">
+            Privacy Policy
+          </Link>
+          <Link to="/terms" className="footer-link">
+            Terms of Use
+          </Link>
+          <Link to="/account-deletion" className="footer-link">
+            Account Deletion
+          </Link>
+        </div>
       </div>
 
       <div className="footer-links">
         <h4 className="footer-section-title">Quick Links</h4>
         <ul>
           <li>
-            <a href="/" className="footer-link">Home</a>
+            <Link to="/" className="footer-link">Home</Link>
           </li>
           <li>
-            <a href="/services" className="footer-link">Services</a>
+            <Link to="/services" className="footer-link">Services</Link>
           </li>
           <li>
-            <a href="/products" className="footer-link">Products</a>
+            <Link to="/products" className="footer-link">Products</Link>
           </li>
           <li>
-            <a href="/blog" className="footer-link">Blog</a>
+            <Link to="/blog" className="footer-link">Blog</Link>
           </li>
           <li>
-            <a href="/contact" className="footer-link">Contact</a>
+            <Link to="/contact" className="footer-link">Contact</Link>
           </li>
         </ul>
       </div>

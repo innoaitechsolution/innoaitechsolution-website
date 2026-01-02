@@ -1,4 +1,4 @@
-.privacy-policy {
+.terms-of-use {
   background-color: #000; 
   color: #fff; 
   font-family: 'Poppins', sans-serif;
@@ -6,7 +6,7 @@
   text-align: left; 
 }
 
-.privacy-policy-container {
+.terms-of-use-container {
   max-width: 800px; 
   margin: 0 auto; 
   padding: 2rem;
@@ -15,34 +15,21 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
 }
 
-.privacy-policy-title {
+.terms-of-use-title {
   font-size: 2.5rem;
   margin-bottom: 1rem;
   color: #9654c6; 
   text-align: center; 
 }
 
-.privacy-policy-intro {
+.terms-of-use-intro {
   font-size: 1.2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   color: #ccc; 
   text-align: center; 
 }
 
-.privacy-policy-section h2 {
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-  color: #fff; 
-}
-
-.privacy-policy-section p {
-  font-size: 1rem;
-  color: #ddd; 
-  margin-bottom: 1.5rem;
-  line-height: 1.6; 
-}
-
-.privacy-policy-updated {
+.terms-of-use-updated {
   font-size: 0.9rem;
   color: #999;
   text-align: center;
@@ -50,21 +37,35 @@
   font-style: italic;
 }
 
-.privacy-policy-section h3 {
+.terms-of-use-section h2 {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #fff; 
+}
+
+.terms-of-use-section h3 {
   font-size: 1.4rem;
   margin-top: 1.5rem;
   margin-bottom: 0.8rem;
   color: #fff;
 }
 
-.privacy-policy-section ul {
+.terms-of-use-section p {
+  font-size: 1rem;
+  color: #ddd; 
+  margin-bottom: 1.5rem;
+  line-height: 1.6; 
+}
+
+.terms-of-use-section ul {
   margin-left: 1.5rem;
   margin-bottom: 1.5rem;
   color: #ddd;
   line-height: 1.8;
 }
 
-.privacy-policy-section li {
+.terms-of-use-section li {
   margin-bottom: 0.5rem;
 }
 
@@ -78,23 +79,24 @@
 }
 
 @media (max-width: 768px) {
-  .privacy-policy {
+  .terms-of-use {
     padding: 2rem 1rem;
   }
 
-  .privacy-policy-container {
+  .terms-of-use-container {
     padding: 1.5rem;
   }
 
-  .privacy-policy-title {
+  .terms-of-use-title {
     font-size: 2rem;
   }
 
-  .privacy-policy-section h2 {
+  .terms-of-use-section h2 {
     font-size: 1.5rem;
   }
 
-  .privacy-policy-section h3 {
+  .terms-of-use-section h3 {
     font-size: 1.2rem;
   }
 }
+
