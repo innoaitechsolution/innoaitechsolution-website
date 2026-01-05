@@ -33,12 +33,12 @@ const ProductsPage = () => {
       description: "Custom templates, databases, and more for your business needs.",
       image: customSolutionsImage,
       buttonText: "Shop Now",
-      buttonLink: "https://innoaits.gumroad.com/l/ai-prompt-list",
-    },
+      buttonLink: "
+
   ];
 
   const handleShopAllProductsClick = () => {
-    navigate("/all-products"); // Kullanıcıyı /all-products sayfasına yönlendir
+    navigate("/all-products"); 
   };
 
   return (
